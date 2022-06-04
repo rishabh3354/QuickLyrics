@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/quicklyrics/__init__.py
+src/quicklyrics/constant.py
+src/quicklyrics/lyrics.py
+src/quicklyrics/version.py
+src/quicklyrics.egg-info/PKG-INFO
+src/quicklyrics.egg-info/SOURCES.txt
+src/quicklyrics.egg-info/dependency_links.txt
+src/quicklyrics.egg-info/top_level.txt

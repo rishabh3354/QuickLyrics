@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
-from constant import SOURCE, HEADERS, SEARCH_SOURCE
+from .constant import SOURCE, HEADERS, SEARCH_SOURCE
 
 
 class SearchArtists:
