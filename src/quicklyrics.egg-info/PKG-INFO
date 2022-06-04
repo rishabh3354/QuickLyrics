@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: quicklyrics
-Version: 1.0.7
+Version: 1.0.8
 Summary: Powerful library to search for music lyrics
 Home-page: https://github.com/rishabh3354/QuickLyrics
 Author: Rishabh Bhardwaj
@@ -106,7 +106,7 @@ res = SearchBySong().results_by_url("https://www.azlyrics.com/lyrics/alanwalker/
   
 from quicklyrics.lyrics import SearchArtists  
   
-res = SearchArtists("o").results()  
+res = SearchArtists("R").results()  
   
 ```
 
@@ -114,26 +114,26 @@ res = SearchArtists("o").results()
 
 ```json
 [
-  "Oakenfold, Paul",
-  "Oakes, Ryan",
-  "Oak Ridge Boys, The",
-  "Oak, Winona",
-  "O.A.R. (Of A Revolution)",
-  "Oasis",
-  "Obel, Agnes",
-  "Oberst, Conor",
-  "Obey The Brave",
-  "Obie Trice",
-  "Obituary",
-  "OBLADAET",
-  "OBN Jay",
-  "OB O'Brien",
-  "OBOY",
-  "Obscura",
-  "O.C. Dawgs",
-  "Oceana",
-  "Ocean Alley",
-  "Ocean, Billy"
+  "R3HAB",
+  "R5",
+  "Ra",
+  "Rabbitt, Eddie",
+  "RAC",
+  "Racal, Maris",
+  "Rachael Yamagata",
+  "Rachel Chinouriri",
+  "Rachel Crow",
+  "Rachel Farley",
+  "Rachel Grae",
+  "Rachelle Ann Go",
+  "Rachel Platten",
+  "Rachel Stevens",
+  "Rachel Taylor",
+  "Rachel Wammack",
+  "Raconteurs, The",
+  "Racoon",
+  "Radiant Children",
+  "RADICAL"
 ]
 ```
 
@@ -143,7 +143,7 @@ res = SearchArtists("o").results()
   
 from quicklyrics.lyrics import SearchByArtists  
   
-res = SearchByArtists("Oasis").results()  
+res = SearchByArtists("Rihanna").results()  
 
 ```
 
@@ -151,41 +151,89 @@ res = SearchByArtists("Oasis").results()
 
 ```json
 {
-  "artist": "oasis",
+  "artist": "Rihanna",
   "albums": [
     {
-      "album_name": "album: \"Definitely Maybe\" (1994)",
+      "album_name": "album: \"Music Of The Sun\" (2005)",
       "songs": [
-        "Rock 'n' Roll Star",
-        "Shakermaker",
-        "Live Forever",
-        "Up In The Sky",
-        "Columbia",
-        "Supersonic",
-        "Bring It On Down",
-        "Cigarettes & Alcohol",
-        "Digsy's Dinner",
-        "Slide Away",
-        "Married With Children",
-        "Sad Song"
+        "Pon De Replay",
+        "Here I Go Again",
+        "If It's Lovin' That You Want",
+        "You Don't Love Me (No, No, No)",
+        "That La, La, La",
+        "The Last Time",
+        "Willing To Wait",
+        "Music Of The Sun",
+        "Let Me",
+        "Rush",
+        "There's A Thug In My Life",
+        "Now I Know",
+        "Pon De Replay (Remix)"
       ]
     },
     {
-      "album_name": "album: \"(What's The Story) Morning Glory\" (1995)",
+      "album_name": "album: \"A Girl Like Me\" (2006)",
       "songs": [
-        "Hello",
-        "Roll With It",
-        "Wonderwall",
-        "Don't Look Back In Anger",
-        "Hey Now",
-        "Some Might Say",
-        "Cast No Shadow",
-        "She's Electric",
-        "Morning Glory",
-        "Champagne Supernova",
-        "Bonehead's Bank Holiday"
+        "SOS",
+        "Kisses Don't Lie",
+        "Unfaithful",
+        "We Ride",
+        "Dem Haters",
+        "Final Goodbye",
+        "Break It Off",
+        "Crazy Little Thing Called Love",
+        "Selfish Girl",
+        "P.S. (I'm Still Not Over You)",
+        "A Girl Like Me",
+        "A Million Miles Away",
+        "If It's Lovin' That You Want Pt. 2",
+        "Who Ya Gonna Run To?(Deluxe Edition Bonus Track)",
+        "Coulda Been The One(Deluxe Edition Bonus Track)",
+        "Should I?(Deluxe Edition Bonus Track)",
+        "Hypnotized(Deluxe Edition Bonus Track)"
       ]
     },
+    {
+      "album_name": "album: \"Good Girl Gone Bad\" (2007)",
+      "songs": [
+        "Umbrella",
+        "Push Up On Me",
+        "Don't Stop The Music",
+        "Breakin' Dishes",
+        "Shut Up And Drive",
+        "Hate That I Love You",
+        "Say It",
+        "Sell Me Candy",
+        "Lemme Get That",
+        "Rehab",
+        "Question Existing",
+        "Good Girl Gone Bad",
+        "Cry(Japanese Bonus Track)",
+        "Haunted(Japanese Bonus Track)",
+        "Disturbia(Good Girl Gone Bad: Reloaded)",
+        "Take A Bow(Good Girl Gone Bad: Reloaded)",
+        "If I Never See Your Face Again(Good Girl Gone Bad: Reloaded)"
+      ]
+    },
+    {
+      "album_name": "album: \"Rated R\" (2009)",
+      "songs": [
+        "Mad House",
+        "Wait Your Turn",
+        "Hard",
+        "Stupid In Love",
+        "Rockstar 101",
+        "Russian Roulette",
+        "Fire Bomb",
+        "Rude Boy",
+        "Photographs",
+        "G4L",
+        "Te Amo",
+        "Cold Case Love",
+        "The Last Song",
+        "Hole In My Head(Nokia Comes With Music Bonus Track)"
+      ]
+    }
   ]
 }
 ```
@@ -196,7 +244,7 @@ res = SearchByArtists("Oasis").results()
   
 from quicklyrics.lyrics import SearchByArtistAndSong  
   
-res = SearchByArtistAndSong("Oasis", "Magic Pie").results()  
+res = SearchByArtistAndSong("Rihanna", "Love The Way You Lie Part II").results()  
   
 ```
 
@@ -204,10 +252,10 @@ res = SearchByArtistAndSong("Oasis", "Magic Pie").results()
 
 ```json
 {
-  "artist": "oasis",
-  "song": "magicpie",
+  "artist": "rihanna",
+  "song": "lovethewayyouliepartii",
   "lyrics": [
-    "\n\r\nAn extraordinary guy\nCan never have an ordinary day\nHe might live a long goodbye\nBut that is not for me to say\nI dig his friends, I dig his shoes\nHe is just a child with nothing to lose\nBut his mind, his mind\n\nThey are sleeping while they dream\nBut then they want to be adored\nThey who don't say what they mean\nWill live and die by their own sword\nI dig their friends, I dig their shoes\nThey are like a child with nothing to lose\nIn their minds, yeah their minds\n\nBut I'll have my way\nIn my own time\nI'll have my say\nMy star will shine\n\n'Cause you see me I've got my magic pie\nThink of me, yeah that was me I was that passer by\nI've been and now I've gone\n\nThere are but a thousand days preparing for a thousand years\nMany minds to educate the people who have disappeared\nD'you dig my friends? D'you dig my shoes?\nI am like a child with nothing to lose in my mind\nYeah my mind\n\nWe'll have our way\nIn our own time\nWe'll have our say\nBecause my star's going to shine\n\n'Cause you see me I've got my magic pie\nThink of me, yeah that was me I was that passer by\nI've been and now I've gone\nYou see me I've got my magic pie\nThink of me, yeah that was me I was that passer by, passer by\nThink of me I've got my magic pie\nThink of me, yeah that was me I was that passer by\nI've been and now I've gone\nYeah\nYeah\nYeah\nShut up!\n",
+    "\n\r\nOn the first page of our story\nThe future seemed so bright\nThen this thing turned out so evil\nI don't know why I'm still surprised\nEven angels have their wicked schemes\nAnd you take that to new extremes\nBut you'll always be my hero\nEven though you've lost your mind\n\nJust gonna stand there and watch me burn\nWell, that's alright because I like the way it hurts\nJust gonna stand there and hear me cry\nWell, that's alright because I love the way you lie\nI love the way you lie, oh\nI love the way you lie\n\nNow there's gravel in our voices\nGlass is shattered from the fight\nIn this tug of war, you'll always win\nEven when I'm right\n'Cause you feed me fables from your head\nWith violent words and empty threats\nAnd it's sick that all these battles\nAre what keeps me satisfied\n\nJust gonna stand there and watch me burn\nWell, that's alright because I like the way it hurts\nJust gonna stand there and hear me cry\nWell, that's alright because I love the way you lie\nI love the way you lie, oh\nI love the way you lie, oh\n\nSo maybe I'm a masochist\nI try to run, but I don't wanna ever leave\n'Til the walls are going up\nIn smoke with all our memories\n\nIt's morning, you wake, a sun ray hits your face\nSmeared makeup as we lay in the wake of destruction (Shh)\nHush baby, speak softly, tell me you're awfully sorry\nThat you pushed me into the coffee table last night so I can push you off me\nTry and touch me so I can scream at you not to touch me\nRun out the room and I'll follow you like a lost puppy\nBaby, without you, I'm nothing, I'm so lost, hug me\nThen tell me how ugly I am, but that you'll always love me\nThen after that, shove me, in the aftermath of the\nDestructive path that we're on, two psychopaths, but we\nKnow that no matter how many knives we put in each other's backs\nThat we'll have each other's backs 'cause we're that lucky\nTogether, we move mountains, let's not make mountains out of molehills\nYou hit me twice, yeah, but who's counting?\nI may have hit you three times, I'm starting to lose count\nBut together, we'll live forever, we found the youth fountain\nOur love is crazy, we're nuts, but I refused counseling\nThis house is too huge, if you move out, I'll burn all two thousand\nSquare feet of it to the ground, ain't shit you can do about it\n'Cause with you, I'm in my fucking mind, without you, I'm out it\n\nJust gonna stand there and watch me burn\nWell, that's alright because I like the way it hurts\nJust gonna stand there and hear me cry\nWell, that's alright because I love the way you lie\nI love the way you lie\nI love the way you lie\nI love the way you lie\nI love the way you lie\n",
     ""
   ]
 }

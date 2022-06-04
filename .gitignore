@@ -4,8 +4,3 @@ migrations/
 *.xml
 *.iml
 .idea/
-build
-dist
-formatlab.spec
-qrc
-resource
