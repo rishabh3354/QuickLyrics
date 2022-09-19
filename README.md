@@ -6,6 +6,7 @@
 ## Installation  
   
 QuickLyrics can be installed using pip from PyPI or from GitHub  
+Link: https://pypi.org/project/quicklyrics/
   
 #### via PyPI using pip  
   
